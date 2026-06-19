@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization Tags -->
+    <title>Digisaloon – Master Legal Hub | Terms, Privacy & Operational Framework</title>
+    <meta name="description" content="Official Digisaloon Master Policies - Read our comprehensive Privacy Policy, Terms of Service, Wallet Rules, and Cancellation frameworks.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://digisaloon.com/policy.html">
+
+    <!-- Open Graph (Social Media Sharing) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Digisaloon – Privacy Policy & Terms of Service">
+    <meta property="og:description" content="Official terms, payment architecture, and grievance redressal framework for Digisaloon booking platform.">
+    <meta property="og:url" content="https://digisaloon.com/policy.html">
+
+    <!-- Google Fonts for Elite SaaS Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        html { scroll-behavior: smooth; }
+        
+        /* Elegant Custom Scrollbar */
+        ::-webkit-scrollbar { width: 5px; height: 5px; }
+        ::-webkit-scrollbar-track { background: #fafafa; }
+        ::-webkit-scrollbar-thumb { background: #b91c1c; border-radius: 20px; }
+        ::-webkit-scrollbar-thumb:hover { background: #991b1b; }
+        
+        /* Hide scrollbar utility */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Custom active state classes managed by ScrollSpy JS */
+        .nav-active {
+            background-color: #fef2f2 !important;
+            color: #991b1b !important;
+            font-weight: 700 !important;
+            border-left: 3px solid #b91c1c !important;
+            padding-left: 14px !important;
+        }
+
+        /* FAQ Accordion Transitions */
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease;
+        }
+        .faq-active .faq-content {
+            max-height: 500px;
+            padding-top: 12px;
+        }
+        .faq-active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        /* Print optimization utility */
+        @media print {
+            header, aside, .no-print, #search-box-container, .faq-trigger-btn { display: none !important; }
+            main { padding: 0 !important; max-w: 100% !important; }
+            body { background: white; color: black; }
+            section { page-break-inside: avoid; border: none !important; padding: 0 !important; margin-bottom: 2rem !important; }
+        }
+    </style>
+</head>
+<body class="bg-[#FCFCFC] text-slate-700 antialiased selection:bg-red-50 selection:text-red-900">
+
+    <!-- Premium Glassmorphism Top Header -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 h-16 flex items-center px-6 md:px-12 justify-between transition-all">
+        <div class="flex items-center space-x-4">
+            <span class="text-xl font-extrabold tracking-tight text-slate-900">
+                <span class="text-red-700">Digi</span>saloon
+            </span>
+            <span class="h-4 w-px bg-slate-200"></span>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Privacy & terms</span>
+        </div>
+        <div class="flex items-center space-x-3 no-print">
+            <button onclick="window.print()" class="text-xs font-medium text-slate-500 hover:text-slate-900 transition-colors bg-slate-50 hover:bg-slate-100 border border-slate-200/60 px-3 py-1.5 rounded-lg flex items-center gap-1.5 cursor-pointer">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+                Print Document
+            </button>
+            <span class="text-[11px] font-bold tracking-widest text-red-700 bg-red-50 border border-red-100 px-3 py-1 rounded-md uppercase">
+                v2.4 (2026)
+            </span>
+        </div>
+    </header>
+
+    <!-- App Layout Container -->
+    <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row min-h-[calc(100vh-4rem)]">
+        
+        <!-- Premium Left Sticky Sidebar -->
+        <aside class="w-full md:w-80 bg-white border-b md:border-b-0 md:border-r border-slate-100 md:sticky md:top-16 md:h-[calc(100vh-4rem)] md:overflow-y-auto p-6 shrink-0 z-40 no-print">
+            
+            <!-- Real Functional Search Box -->
+            <div id="search-box-container" class="relative mb-6">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                    <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </span>
+                <input id="policy-search" type="text" placeholder="Search keywords, clauses..." class="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200/70 rounded-xl text-xs font-medium focus:outline-none focus:border-red-400 focus:bg-white focus:ring-2 focus:ring-red-50 transition-all">
+            </div>
+
+            <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3 hidden md:block">Table of Contents</p>
+            
+            <!-- Navigation Links with dynamic script tracking -->
+            <nav id="sidebar-menu" class="flex md:block overflow-x-auto whitespace-nowrap md:whitespace-normal no-scrollbar -mx-6 px-6 md:mx-0 md:px-0 space-x-2 md:space-x-0 md:space-y-1">
+                <a href="#section1" data-section="section1" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">01</span> Legal Definitions Glossary
+                </a>
+                <a href="#section2" data-section="section2" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">02</span> Privacy & Data Protection
+                </a>
+                <a href="#section3" data-section="section3" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">03</span> Terms of Platform Use
+                </a>
+                <a href="#section4" data-section="section4" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">04</span> Merchant Partner Compliance
+                </a>
+                <a href="#section5" data-section="section5" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">05</span> Cookie & Analytics Policy
+                </a>
+                <a href="#section6" data-section="section6" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">06</span> Payment Architecture
+                </a>
+                <a href="#section7" data-section="section7" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">07</span> Wallet Rules & Loyalty
+                </a>
+                <a href="#section8" data-section="section8" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">08</span> Force Majeure Clauses
+                </a>
+                <a href="#section9" data-section="section9" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">09</span> Cancellation & Refunds
+                </a>
+                <a href="#section10" data-section="section10" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">10</span> Disputes & Jurisdiction
+                </a>
+                <a href="#section11" data-section="section11" class="sidebar-link inline-flex md:flex items-center px-4 py-2.5 text-xs md:text-sm font-medium rounded-lg text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-all border border-transparent">
+                    <span class="w-6 text-red-600 font-bold text-xs">11</span> Grievance Redressal Hub
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Right Side Main Content Window -->
+        <main class="flex-1 md:overflow-y-auto px-6 py-10 md:px-20 md:py-16 bg-[#FCFCFC]">
+            
+            <!-- Document Hero Header Meta -->
+            <div class="mb-14 max-w-3xl">
+                <div class="flex items-center space-x-2 text-[10px] font-bold tracking-widest text-slate-400 uppercase mb-3">
+                    <span>E-Commerce Intermediary Framework</span>
+                    <span>•</span>
+                    <span>Corporate Legal Documentation</span>
+                </div>
+                <h1 class="text-2xl md:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight uppercase mb-5">DIGISALOON MASTER TERMS OF SERVICE, PRIVACY POLICY, AND OPERATIONAL GUIDELINES</h1>
+                <div class="inline-flex items-center bg-white px-3.5 py-2 rounded-xl border border-slate-200/60 shadow-2xs">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse mr-2.5"></span>
+                    <span class="text-xs font-bold text-slate-600 uppercase tracking-wider">Last System Audit: June 18, 2026</span>
+                </div>
+            </div>
+
+            <!-- Master Document Flow Architecture -->
+            <div id="policy-content" class="max-w-3xl text-slate-600 text-[14px] md:text-[15px] leading-relaxed space-y-16">
+                
+                <!-- Intro Notice Card -->
+                <p class="policy-paragraph text-slate-700 font-medium bg-white p-6 rounded-xl border border-slate-200/60 shadow-2xs relative overflow-hidden">
+                    <span class="absolute top-0 left-0 h-full w-1 bg-red-700"></span>
+                    Welcome to Digisaloon. This master legal repository constitutes a binding, electronic agreement between you (the "User", "Merchant", or "Visitor") and the Digisaloon Corporate Entity. These clauses regulate the access, deployment, account creation, transactional loops, and booking schedules initiated via our mobile applications, web portals, and associated application programming interfaces (APIs). Please review these terms with exhaustive diligence.
+                </p>
+
+                <!-- SECTION 1: DEFINITIONS (NEW BULKING SECTION) -->
+                <section id="section1" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 1 /</span> Legal Definitions Glossary
+                        </h2>
+                    </div>
+                    <div class="space-y-4 text-xs md:text-sm">
+                        <p>Throughout this operational document, the following specialized terms shall carry explicit definitions as described below:</p>
+                        <div class="grid grid-cols-1 gap-2">
+                            <div class="p-3 bg-white border border-slate-100 rounded-xl">
+                                <strong class="text-slate-900 font-bold block mb-0.5">"Platform"</strong> Refers systematically to the Digisaloon mobile iOS/Android applications, internal server microservices, databases, website architectures, and operational nodes.
+                            </div>
+                            <div class="p-3 bg-white border border-slate-100 rounded-xl">
+                                <strong class="text-slate-900 font-bold block mb-0.5">"Merchant Partner / Salon Partner"</strong> Represents any third-party brick-and-mortar salon, spa, micro-styling studio, independent freelance beautician, or grooming outlet registered on the system to offer services.
+                            </div>
+                            <div class="p-3 bg-white border border-slate-100 rounded-xl">
+                                <strong class="text-slate-900 font-bold block mb-0.5">"Confirmed Booking"</strong> An electronically authorized time-slot locked by a User at a selected Merchant location, confirmed by a unique alphanumeric transaction ticket generated by our backend.
+                            </div>
+                            <div class="p-3 bg-white border border-slate-100 rounded-xl">
+                                <strong class="text-slate-900 font-bold block mb-0.5">"No-Show Status"</strong> A state triggered automatically when a User fails to show up at the physical venue of the Merchant within fifteen (15) minutes of their scheduled time.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 2 -->
+                <section id="section2" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 2 /</span> Comprehensive Privacy Policy & Data Protection
+                        </h2>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-2xs space-y-3">
+                            <h3 class="font-bold text-slate-900 text-sm tracking-tight flex items-center">2.1 Nature of Information Collection</h3>
+                            <p class="text-slate-500 text-xs md:text-sm">Digisaloon collects both Personal Information and Non-Personal Information to provide a seamless digital salon booking experience.</p>
+                            <div class="grid grid-cols-1 gap-3 pt-1">
+                                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100/70">
+                                    <span class="text-[11px] font-bold text-red-800 uppercase tracking-wider block mb-1">Personally Identifiable Information (PII)</span>
+                                    <p class="text-xs text-slate-600 leading-relaxed">This includes, but is not limited to, your full legally recognized name, primary mobile/telephonic contact number, active email address, calendar availability, gender, and profile images.</p>
+                                </div>
+                                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100/70">
+                                    <span class="text-[11px] font-bold text-slate-700 uppercase tracking-wider block mb-1">Technical and Usage Analytics</span>
+                                    <p class="text-xs text-slate-600 leading-relaxed">We automatically collect data related to your device architecture, IP address, device operating system version, browser type, internal app navigation paths, duration of platform usage, and crash logs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-xl border border-slate-100 shadow-2xs space-y-3">
+                            <h3 class="font-bold text-slate-900 text-sm tracking-tight">2.2 Device Permissions and Access Authorities</h3>
+                            <ul class="space-y-3 pt-1">
+                                <li class="flex items-start text-xs text-slate-600"><span class="w-1.5 h-1.5 bg-red-600 rounded-full mt-1.5 mr-3 shrink-0"></span><span><strong class="text-slate-800 font-semibold">Geographical Location Data (GPS/Network-based):</strong> The App tracks and accesses your location parameters to isolate, sort, filter, and display the optimal neighborhood salon partners within your immediate vicinity.</span></li>
+                                <li class="flex items-start text-xs text-slate-600"><span class="w-1.5 h-1.5 bg-red-600 rounded-full mt-1.5 mr-3 shrink-0"></span><span><strong class="text-slate-800 font-semibold">Camera Subsystem Access:</strong> Required exclusively for capturing immediate photographic data to modify user account avatars or attaching media files to public-facing review modules.</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2">
+                            <h3 class="font-bold text-slate-900 text-sm tracking-tight">2.3 Telecommunication, SMS, and WhatsApp Marketing Consent</h3>
+                            <p class="text-slate-600 text-xs md:text-sm leading-relaxed">By executing the registration process on the Platform, the User explicitly grants an irrevocable communication mandate to Digisaloon to deliver high-frequency automated transactional notifications, One-Time Passwords (OTPs), administrative system warnings, algorithmic reservation reminders, and promotional or loyalty marketing collateral. This communication consent expressly supersedes any registration or preference active on national "Do Not Disturb" (DND) registries.</p>
+                        </div>
+
+                        <div class="space-y-2">
+                            <h3 class="font-bold text-slate-900 text-sm tracking-tight">2.4 Data Retention and Absolute Account Deletion Rights</h3>
+                            <p class="text-slate-600 text-xs md:text-sm leading-relaxed">In full conformity with global application marketplace standards, Users possess complete sovereignty over their data. Users can initiate a binding data purging request inside the interface via <span class="text-red-700 font-semibold bg-red-50 px-2 py-0.5 rounded text-xs">Settings > Account Options > Delete Account</span>, or by writing to <span class="font-mono text-red-700 font-semibold underline decoration-red-200">support@digisaloon.com</span>.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 3 -->
+                <section id="section3" class="policy-section scroll-mt-24 space-y-6">
+    <div class="border-b border-slate-200 pb-3">
+        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+            <span class="text-red-700 font-black mr-2">Section 3 /</span> Terms and Conditions of Platform Use
+        </h2>
+    </div>
+                    
+                    <div class="space-y-6 text-xs md:text-sm text-slate-600">
+                        <div class="space-y-1">
+                            <h3 class="font-bold text-slate-900">3.1 Age Restriction and Parental Guarantees</h3>
+                            <p class="leading-relaxed">The Platform is engineered exclusively for individuals possessing full legal capacities to execute contractual covenants. The minimum age eligibility threshold to access or initiate a basic consumer profile on the Digisaloon Platform is explicitly set at <span class="text-slate-950 font-bold border-b-2 border-red-200">13 years of age</span>.</p>
+                        </div>
+                        
+                        <div class="space-y-1">
+                            <h3 class="font-bold text-slate-900">3.2 Intermediary Status and Absolute Limitation of Liability</h3>
+                            <p class="leading-relaxed">Digisaloon functions strictly and solely in the legal capacity of a digital marketplace and technological intermediary under the provisions of the Information Technology Act. Digisaloon does not own, run, manage, style, control, or operate any brick-and-mortar salon storefronts, spa facilities, or physical beauty establishments. The actual service contract is a direct horizontal transaction executed solely between the end-consumer and the independent salon partner.</p>
+                        </div>
+                        
+                        <div class="space-y-1">
+                            <h3 class="font-bold text-slate-900">3.3 Proprietary Intellectual Property Protections</h3>
+                            <p class="leading-relaxed text-slate-600 bg-slate-50 border border-slate-200/60 rounded-xl p-5 italic">All content structural modules present within the Platform—including, but not limited to, the corporate name "Digisaloon", specific brand color themes, interface design layout, icon pack arrangements, digital banners, marketing text strings, source codes, database structures, and underlying algorithmic logic—constitutes the absolute intellectual property of Digisaloon.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 4: MERCHANT/SALON COMPLIANCE (NEW BULKING SECTION) -->
+                <section id="section4" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 4 /</span> Merchant Partner & Salon Compliance Code
+                        </h2>
+                    </div>
+                    <div class="space-y-4 text-xs md:text-sm">
+                        <p>This section governs the strict baseline operating standards required from all onboarded Salon Owners and independent service merchants:</p>
+                        <ul class="space-y-3">
+                            <li class="p-4 bg-white border border-slate-100 rounded-xl shadow-3xs">
+                                <strong class="text-slate-950 font-semibold block mb-1">Pricing Integrity Policy:</strong> Merchants are strictly forbidden from charging users fees higher than the rates listed on the Digisaloon application for any specific slot. If a merchant manipulates rates at the counter, their commercial account will face immediate penalty clawbacks or temporary de-platforming.
+                            </li>
+                            <li class="p-4 bg-white border border-slate-100 rounded-xl shadow-3xs">
+                                <strong class="text-slate-950 font-semibold block mb-1">Slot Adherence Guarantees:</strong> Onboarded salons must keep the booked time-slot available for the Digisaloon user. Making a mobile app user wait for more than thirty (30) minutes past their confirmed booking schedule constitutes an operational breach and impacts the salon's partner quality rating.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- SECTION 5: COOKIES & ANALYTICS DISCLOSURE (NEW BULKING SECTION) -->
+                <section id="section5" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 5 /</span> Cookie Architecture, SDKs, and Tracking Technologies
+                        </h2>
+                    </div>
+                    <div class="space-y-4 text-xs md:text-sm">
+                        <p>To continuously monitor app performance, track system crashes, and improve search speeds, the Platform embeds specialized software deployment toolkits:</p>
+                        <table class="w-full text-left border-collapse bg-white rounded-xl overflow-hidden border border-slate-200/60">
+                            <thead>
+                                <tr class="bg-slate-50 text-slate-800 text-[11px] font-bold uppercase tracking-wider border-b border-slate-200/60">
+                                    <th class="p-3">Technology Type</th>
+                                    <th class="p-3">Primary Operational Purpose</th>
+                                    <th class="p-3">Data Handled</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-xs text-slate-500">
+                                <tr>
+                                    <td class="p-3 font-semibold text-slate-800">Core Session Cookies</td>
+                                    <td class="p-3">Maintains user session authorization state across screen switches.</td>
+                                    <td class="p-3">Encrypted session tokens</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-semibold text-slate-800">Firebase SDK Nodes</td>
+                                    <td class="p-3">App crash telemetry reporting and instant OTP tracking pipelines.</td>
+                                    <td class="p-3">Hardware specs, crash traces</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-semibold text-slate-800">Map Interface Engine</td>
+                                    <td class="p-3">Plots salon store coordinates relative to user location.</td>
+                                    <td class="p-3">Latitude and Longitude values</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- SECTION 6 -->
+                <section id="section6" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 6 /</span> Payment & Financial Transaction Architecture
+                        </h2>
+                    </div>
+                    
+                    <div class="space-y-5">
+                        <p class="text-slate-600 text-xs md:text-sm">To maximize consumer convenience, Digisaloon offers a hybrid payment settlement matrix split across two distinct payment pathways:</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="bg-white p-5 rounded-xl border border-slate-200/70 shadow-2xs space-y-2">
+                                <span class="text-[10px] font-bold text-red-800 bg-red-50 border border-red-100/70 px-2 py-0.5 rounded uppercase">Pathway A</span>
+                                <h4 class="font-bold text-slate-900 text-sm">Pay at App (Online Pre-Payment)</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Users can choose to clear their financial bills completely at the moment of reservation using integrated digital pipelines including Unified Payments Interface (UPI), Net Banking networks, Credit Cards, Debit Cards, or pre-funded App Wallets.</p>
+                            </div>
+                            <div class="bg-white p-5 rounded-xl border border-slate-200/70 shadow-2xs space-y-2">
+                                <span class="text-[10px] font-bold text-slate-700 bg-slate-50 border border-slate-200/70 px-2 py-0.5 rounded uppercase">Pathway B</span>
+                                <h4 class="font-bold text-slate-900 text-sm">Pay at Salon (On-Site Settlement)</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Users can book a dedicated time-slot on the app without any initial financial commitment and choose to clear their ultimate bill directly at the physical salon desk upon service completion.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 7 -->
+                <section id="section7" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 7 /</span> Digisaloon Wallet Rules & Loyalty Protocols
+                        </h2>
+                    </div>
+                    
+                    <div class="space-y-5 text-xs md:text-sm text-slate-600">
+                        <div class="bg-white p-5 rounded-xl border border-slate-100 shadow-2xs space-y-3">
+                            <h3 class="font-bold text-slate-900">7.1 Classification of Internal Wallet Assets</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                                <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-100">
+                                    <strong class="text-slate-900 block mb-1">Loaded Money (Real Fiat Currency)</strong>
+                                    Capital voluntarily deposited or transferred into the wallet by the user via online banking methods to perform fast bookings.
+                                </div>
+                                <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-100">
+                                    <strong class="text-slate-900 block mb-1">Promotional Credits (Incentives)</strong>
+                                    Artificial loyalty incentives digitally granted by the platform during marketing drives, account setup bonuses, or friend referral schemes.
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 mb-1">7.2 Definitive Expiry Thresholds</h3>
+                            <p class="leading-relaxed">Loaded Money deposited directly by users remains active permanently and does not expire. Promotional Credits carry a strict validity lifecycle of <span class="text-slate-950 font-bold border-b border-slate-900">90 calendar days</span> from the exact date of deposit.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 8: FORCE MAJEURE (NEW BULKING SECTION) -->
+                <section id="section8" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 8 /</span> Force Majeure (Unforeseen Events Liability Insulation)
+                        </h2>
+                    </div>
+                    <p class="text-xs md:text-sm leading-relaxed">
+                        Digisaloon shall stand completely insulated from any operational faults, performance failures, booking drops, transactional failures, or delays if such events stem from a <strong class="text-slate-900 font-semibold">Force Majeure Event</strong>. This includes, but is not limited to: Acts of God, sudden government regulatory lockouts, municipal orders, public strikes, civil unrest, city-wide internet routing failures, severe power grid collapse, lightning damage, or local weather blockades affecting merchant outlets.
+                    </p>
+                </section>
+
+                <!-- SECTION 9 -->
+                <section id="section9" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 9 /</span> Cancellation, No-Show, and Refund Architecture
+                        </h2>
+                    </div>
+                    
+                    <div class="space-y-6 text-xs md:text-sm text-slate-600">
+                        <div>
+                            <h3 class="font-bold text-slate-900 mb-1">9.1 Definitive Free Cancellation Threshold Window</h3>
+                            <p class="leading-relaxed">Users can cancel any scheduled appointment through the self-service app interface without incurring any financial penalty, provided the cancellation occurs at least <span class="text-red-700 font-bold">2 hours prior</span> to the designated appointment time.</p>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl border border-slate-200/70 p-5 shadow-2xs space-y-3">
+                            <h4 class="font-bold text-slate-900 text-sm">9.2 Financial Penalty Matrices for Late Cancellation and No-Shows</h4>
+                            <div class="space-y-2.5 text-xs text-slate-600">
+                                <p class="p-3 bg-red-50/20 border border-red-100 rounded-lg"><strong class="text-red-950 block mb-0.5">For "Pay at App" Reservations:</strong> If a user cancels a booking with less than two (2) hours remaining until the scheduled appointment, or completely fails to report at the salon venue, Digisaloon and the merchant reserve the right to deduct up to 50% of the advance payment amount as a late cancellation penalty.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECTION 10 -->
+                <section id="section10" class="policy-section scroll-mt-24 space-y-6">
+                    <div class="border-b border-slate-200 pb-3">
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase flex items-center">
+                            <span class="text-red-700 font-black mr-2">Section 10 /</span> Legal Framework & Dispute Resolution
+                        </h2>
+                    </div>
+                    <div class="space-y-4 text-xs md:text-sm text-slate-600">
+                        <p><strong class="text-slate-900 block mb-0.5">10.1 Governing Law and Territorial Jurisdiction:</strong> This Master Policy document, the corporate relationship, and any legal conflicts arising between the User and Digisaloon shall be governed strictly according to the Federal Laws of the Republic of India. Any litigation, consumer court complaints, or legal notices must be filed exclusively within the territorial legal courts located in <span class="text-slate-950 font-bold">Ranchi, Jharkhand, India</span>.</p>
+                    </div>
+                </section>
+
+                <!-- SECTION 11 -->
+                <section id="section11" class="policy-section scroll-mt-24 bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-6">
+                    <div>
+                        <span class="text-[10px] font-bold tracking-widest text-red-700 uppercase bg-red-50 border border-red-100 px-2.5 py-1 rounded-md block w-max mb-3">Compliance Node</span>
+                        <h2 class="text-lg font-bold text-slate-900 tracking-tight uppercase">SECTION 11: GRIEVANCE REDRESSAL MECHANISM & CORPORATE CONTACT</h2>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 bg-slate-50 border border-slate-200/60 rounded-xl space-y-2">
+                            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Grievance Cell</span>
+                            <div class="space-y-1 text-xs">
+                                <p class="text-slate-500">Designated Officer: <span class="text-slate-900 font-semibold">[Satish Kumar]</span></p>
+                                <p class="text-slate-500">Corporate Mail: <span class="text-red-700 font-medium font-mono">grievance@digisaloon.com</span></p>
+                                <p class="text-slate-500">Jurisdiction: <span class="text-slate-900 font-semibold">[Ranchi, Jharkhand, India]</span></p>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-slate-50 border border-slate-200/60 rounded-xl space-y-2">
+                            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">General Support Desk</span>
+                            <div class="space-y-1 text-xs">
+                                <p class="text-slate-500">Support Email: <span class="text-red-700 font-medium font-mono">support@digisaloon.com</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- --- DYNAMIC BULKING: INTERACTIVE LEGAL FAQ MODULE --- -->
+                <div class="border-t border-slate-200 pt-12 no-print">
+                    <div class="mb-6">
+                        <span class="text-[10px] font-bold tracking-widest text-slate-400 uppercase block">Instant Clarifications</span>
+                        <h2 class="text-xl font-bold text-slate-900 tracking-tight">Legal & Policy Frequently Asked Questions</h2>
+                    </div>
+
+                    <div class="space-y-2">
+                        <!-- FAQ Item 1 -->
+                        <div class="faq-item border border-slate-200/70 bg-white rounded-xl transition-all">
+                            <button class="faq-trigger-btn w-full px-5 py-4 text-left flex justify-between items-center cursor-pointer select-none">
+                                <span class="text-xs md:text-sm font-bold text-slate-800">What happens if a salon merchant refuses to honor my app booking?</span>
+                                <svg class="faq-icon w-4 h-4 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div class="faq-content px-5 text-xs text-slate-500 leading-relaxed">
+                                <p class="pb-4">If an onboarded merchant refuses a valid booking, you should report it immediately through the live in-app support module. Digisaloon will process an immediate full refund if you pre-paid online, and the merchant's reliability scores will be penalized.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="faq-item border border-slate-200/70 bg-white rounded-xl transition-all">
+                            <button class="faq-trigger-btn w-full px-5 py-4 text-left flex justify-between items-center cursor-pointer select-none">
+                                <span class="text-xs md:text-sm font-bold text-slate-800">Can I transfer my promotional wallet credits to my friend's account?</span>
+                                <svg class="faq-icon w-4 h-4 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div class="faq-content px-5 text-xs text-slate-500 leading-relaxed">
+                                <p class="pb-4">No. All promotional cashbacks, signup bonuses, and referral credits are securely bound to your individual profile and device architecture. They are non-transferable, non-exchangeable, and expire automatically after 90 days.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="faq-item border border-slate-200/70 bg-white rounded-xl transition-all">
+                            <button class="faq-trigger-btn w-full px-5 py-4 text-left flex justify-between items-center cursor-pointer select-none">
+                                <span class="text-xs md:text-sm font-bold text-slate-800">How secure is my financial payment data on the app?</span>
+                                <svg class="faq-icon w-4 h-4 text-slate-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div class="faq-content px-5 text-xs text-slate-500 leading-relaxed">
+                                <p class="pb-4">Digisaloon never intercepts, logs, or archives raw card numbers or private UPI PIN codes on its infrastructure. All transactional data routing runs through PCI-DSS compliant payment gateways backed by end-to-end tokenized security protocols.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+            <footer class="mt-24 pt-6 border-t border-slate-100 text-[11px] text-slate-400 flex flex-col md:flex-row justify-between items-center gap-3">
+                <span>&copy; 2026 Digisaloon Platform. All rights reserved.</span>
+                <span class="font-medium text-slate-500">Registered & Audited under Ranchi, Jharkhand Jurisdiction.</span>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Technical SEO JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GovernmentBenefitsService",
+      "name": "Digisaloon Legal Framework",
+      "provider": {
+        "@type": "Organization",
+        "name": "Digisaloon",
+        "url": "https://digisaloon.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ranchi",
+          "addressRegion": "Jharkhand",
+          "addressCountry": "IN"
+        }
+      },
+      "description": "Master privacy policy, terms of service, and user guidelines for the Digisaloon marketplace platform."
+    }
+    </script>
+
+    <!-- Vanilla JavaScript for Premium Interactions (Search, ScrollSpy, FAQ) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // --- 1. REAL-TIME SEARCH FILTER SYSTEM ---
+            const searchInput = document.getElementById('policy-search');
+            const sections = document.querySelectorAll('.policy-section');
+
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+
+                sections.forEach(section => {
+                    const textContent = section.textContent.toLowerCase();
+                    if (textContent.includes(query)) {
+                        section.style.display = 'block';
+                        section.style.opacity = '1';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            });
+
+            // --- 2. DYNAMIC SCROLLSPY SYSTEM (IntersectionObserver) ---
+            const navLinks = document.querySelectorAll('.sidebar-link');
+            
+            const observerOptions = {
+                root: null,
+                rootMargin: '-20% 0px -60% 0px',
+                threshold: 0
+            };
+
+            const observerCallback = (entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const activeId = entry.target.getAttribute('id');
+                        
+                        navLinks.forEach(link => {
+                            if (link.getAttribute('data-section') === activeId) {
+                                link.classList.add('nav-active');
+                                link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                            } else {
+                                link.classList.remove('nav-active');
+                            }
+                        });
+                    }
+                });
+            };
+
+            const observer = new IntersectionObserver(observerCallback, observerOptions);
+            sections.forEach(section => observer.observe(section));
+
+            // --- 3. FAQ INTERACTIVE ACCORDION SYSTEM ---
+            const faqTriggers = document.querySelectorAll('.faq-trigger-btn');
+            
+            faqTriggers.forEach(trigger => {
+                trigger.addEventListener('click', () => {
+                    const parent = trigger.parentElement;
+                    const isActive = parent.classList.contains('faq-active');
+                    
+                    // Close all active FAQs first for a clean accordian behavior
+                    document.querySelectorAll('.faq-item').forEach(item => {
+                        item.classList.remove('faq-active');
+                    });
+                    
+                    // Toggle current FAQ click state
+                    if (!isActive) {
+                        parent.classList.add('faq-active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
